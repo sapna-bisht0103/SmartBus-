@@ -1,0 +1,8 @@
+STU001|Sapna Bisht|sapna123|BUS-001|BUS-001-S3|Window
+STU002|Rahul Sharma|rahul123|BUS-001|BUS-001-S1|Front
+STU003|Priya Verma|priya123|BUS-002|BUS-002-S2|Any
+STU004|Amit Kumar|amit123|BUS-002|BUS-002-S5|Window
+STU005|Neha Singh|neha123|BUS-003|-|Front
+STU006|Rohan Gupta|rohan123|BUS-003|BUS-003-S1|Any
+STU007|Anjali Rawat|anjali123|-|-|Window
+STU008|Vikash Joshi|vikash123|BUS-001|BUS-001-S8|Any

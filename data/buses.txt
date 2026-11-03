@@ -1,0 +1,5 @@
+BUS-001|40|RT-001|DRV-001|Running|Full Day
+BUS-002|35|RT-002|DRV-002|Not Started|Full Day
+BUS-003|30|RT-003|DRV-003|Completed|Half Day
+BUS-004|40|RT-001|DRV-004|Not Started|Half Day
+BUS-005|45|RT-004|-|Not Started|Full Day

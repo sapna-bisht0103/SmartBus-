@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartBus — Smart College Bus Management System</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <i class="fas fa-bus"></i>
+        <span>Smart<b>Bus</b></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#modules">Modules</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#login" class="nav-btn">Login</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-star"></i> OOP C++ Project
+      </div>
+      <h1>Smart College<br/><span class="gradient-text">Bus Management</span><br/>System</h1>
+      <p>Ek advanced platform jo college buses, students, drivers aur routes ko efficiently manage karta hai — built with C++ OOP principles.</p>
+      <div class="hero-btns">
+        <a href="#login" class="btn btn-primary">
+          <i class="fas fa-sign-in-alt"></i> Get Started
+        </a>
+        <a href="#features" class="btn btn-outline">
+          <i class="fas fa-info-circle"></i> Learn More
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">11+</span>
+          <span class="stat-label">OOP Classes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Modules</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Report Types</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label">User Roles</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="bus-card">
+        <div class="bus-card-header">
+          <i class="fas fa-bus-alt"></i>
+          <span>Bus BUS-001</span>
+          <span class="status running">Running</span>
+        </div>
+        <div class="bus-card-body">
+          <div class="info-row"><i class="fas fa-route"></i> Route: Dehradun - College</div>
+          <div class="info-row"><i class="fas fa-clock"></i> 7:30 AM → 9:00 AM</div>
+          <div class="info-row"><i class="fas fa-chair"></i> 32/40 Seats Booked</div>
+          <div class="info-row"><i class="fas fa-user-tie"></i> Driver: Ramesh Kumar</div>
+        </div>
+        <div class="bus-progress">
+          <div class="progress-bar" style="width: 80%"></div>
+        </div>
+        <span class="progress-label">80% Occupancy</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why SmartBus?</span>
+        <h2>Key <span class="gradient-text">Features</span></h2>
+        <p>Hamare system mein sab kuch organized aur automated hai</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon blue">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>Bus Search</h3>
+          <p>Route name ya bus number se instant search karo aur timing dekho.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon green">
+            <i class="fas fa-chair"></i>
+          </div>
+          <h3>Seat Allocation</h3>
+          <p>Window, Front ya Any preference se automatic seat allocation hoti hai.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon orange">
+            <i class="fas fa-list-ol"></i>
+          </div>
+          <h3>Waiting List</h3>
+          <p>Seat full hone par auto waiting list mein add ho jao — seat available hote hi automatic assign.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon purple">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3>6 Report Types</h3>
+          <p>Admin ko milte hain Daily Bus, Occupancy, Route-wise, Driver, aur Student Seat Reports.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon red">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Full/Half Day</h3>
+          <p>Full Day aur Half Day schedule alag alag manage hoti hai buses ke liye.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon teal">
+            <i class="fas fa-save"></i>
+          </div>
+          <h3>File Handling</h3>
+          <p>Saara data .txt files mein permanently save hota hai — koi bhi data lost nahi hota.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODULES ========== -->
+  <section class="modules" id="modules">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Project Structure</span>
+        <h2>4 Main <span class="gradient-text">Modules</span></h2>
+        <p>Har module ek team member ka kaam hai</p>
+      </div>
+      <div class="modules-grid">
+
+        <div class="module-card" data-module="student">
+          <div class="module-top blue-grad">
+            <div class="module-icon"><i class="fas fa-user-graduate"></i></div>
+            <div class="module-tag">Member 1</div>
+          </div>
+          <div class="module-body">
+            <h3>Student Module</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> College ID + Password Login</li>
+              <li><i class="fas fa-check"></i> View Available Buses</li>
+              <li><i class="fas fa-check"></i> Full Day / Half Day Status</li>
+              <li><i class="fas fa-check"></i> Routes, Stops & Timings</li>
+              <li><i class="fas fa-check"></i> Search Bus / Route</li>
+              <li><i class="fas fa-check"></i> View Assigned Seat</li>
+              <li><i class="fas fa-check"></i> Cancel Seat Booking</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="module-card" data-module="bus">
+          <div class="module-top orange-grad">
+            <div class="module-icon"><i class="fas fa-bus"></i></div>
+            <div class="module-tag">Member 2</div>
+          </div>
+          <div class="module-body">
+            <h3>Bus + Driver Module</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Add / View / Update / Delete Bus</li>
+              <li><i class="fas fa-check"></i> Manage Routes & Stops</li>
+              <li><i class="fas fa-check"></i> Bus Timings & Schedules</li>
+              <li><i class="fas fa-check"></i> Full Day / Half Day Schedule</li>
+              <li><i class="fas fa-check"></i> Driver Details</li>
+              <li><i class="fas fa-check"></i> Assign Driver to Bus</li>
+              <li><i class="fas fa-check"></i> Bus Status Update</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="module-card" data-module="seat">
+          <div class="module-top green-grad">
+            <div class="module-icon"><i class="fas fa-chair"></i></div>
+            <div class="module-tag">Member 3</div>
+          </div>
+          <div class="module-body">
+            <h3>Seat Allocation Module</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Display Available Seats</li>
+              <li><i class="fas fa-check"></i> Preference-based Allocation</li>
+              <li><i class="fas fa-check"></i> Window / Front / Any</li>
+              <li><i class="fas fa-check"></i> Seat Cancellation</li>
+              <li><i class="fas fa-check"></i> Automatic Waiting List</li>
+              <li><i class="fas fa-check"></i> Bus Occupancy %</li>
+              <li><i class="fas fa-check"></i> Student-Seat Mapping</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="module-card" data-module="admin">
+          <div class="module-top purple-grad">
+            <div class="module-icon"><i class="fas fa-user-shield"></i></div>
+            <div class="module-tag">Member 4</div>
+          </div>
+          <div class="module-body">
+            <h3>Admin + Reports Module</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Admin Login & Dashboard</li>
+              <li><i class="fas fa-check"></i> Student Management (CRUD)</li>
+              <li><i class="fas fa-check"></i> Bus / Route / Driver Mgmt</li>
+              <li><i class="fas fa-check"></i> Seat Allocation Mgmt</li>
+              <li><i class="fas fa-check"></i> Daily Bus Report</li>
+              <li><i class="fas fa-check"></i> Occupancy Report</li>
+              <li><i class="fas fa-check"></i> Driver / Student Seat Report</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== OOP CONCEPTS ========== -->
+  <section class="oop-section">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag white-tag">C++ OOP</span>
+        <h2>OOP Concepts <span class="gradient-text">Used</span></h2>
+        <p>Ye project C++ ke sare important OOP concepts demonstrate karta hai</p>
+      </div>
+      <div class="oop-grid">
+        <div class="oop-card">
+          <div class="oop-num">01</div>
+          <h4>Encapsulation</h4>
+          <p>Private data members + public getters/setters. Password aur sensitive data secure.</p>
+          <code>private: string password;<br/>public: void login();</code>
+        </div>
+        <div class="oop-card">
+          <div class="oop-num">02</div>
+          <h4>Inheritance</h4>
+          <p>Student, Driver, Admin — teeno User base class se inherit karte hain.</p>
+          <code>class Student : public User {};<br/>class Driver : public User {};</code>
+        </div>
+        <div class="oop-card">
+          <div class="oop-num">03</div>
+          <h4>Polymorphism</h4>
+          <p>Har user ka dashboard() alag hota hai — virtual functions se.</p>
+          <code>virtual void displayDashboard();<br/>// Override in each class</code>
+        </div>
+        <div class="oop-card">
+          <div class="oop-num">04</div>
+          <h4>Abstraction</h4>
+          <p>Pure virtual function User mein — internal logic user se hidden.</p>
+          <code>virtual void displayDashboard() = 0;<br/>// Must implement</code>
+        </div>
+        <div class="oop-card">
+          <div class="oop-num">05</div>
+          <h4>Constructors</h4>
+          <p>Har class mein parameterized constructor se object initialize hota hai.</p>
+          <code>Bus(string bn, int cap,<br/>  string rid, string did);</code>
+        </div>
+        <div class="oop-card">
+          <div class="oop-num">06</div>
+          <h4>File Handling</h4>
+          <p>Data permanently store hota hai 7 .txt files mein using fstream.</p>
+          <code>ofstream file("data/buses.txt");<br/>file &lt;&lt; bus.toFileString();</code>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOGIN SECTION ========== -->
+  <section class="login-section" id="login">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Access System</span>
+        <h2>Select Your <span class="gradient-text">Role</span></h2>
+        <p>Apna role select karo aur login karo</p>
+      </div>
+      <div class="login-cards">
+
+        <div class="login-card" onclick="showInfo('student')">
+          <div class="login-icon blue-grad">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Student Login</h3>
+          <p>College ID & Password se login karo. Buses, routes aur seats dekho.</p>
+          <div class="login-details" id="info-student">
+            <div class="detail-row"><i class="fas fa-id-card"></i> <b>ID:</b> Your College ID</div>
+            <div class="detail-row"><i class="fas fa-lock"></i> <b>Password:</b> Set by Admin</div>
+            <div class="detail-row tip"><i class="fas fa-terminal"></i> Console app mein option <b>1</b> press karo</div>
+          </div>
+          <span class="login-arrow"><i class="fas fa-arrow-right"></i></span>
+        </div>
+
+        <div class="login-card" onclick="showInfo('driver')">
+          <div class="login-icon orange-grad">
+            <i class="fas fa-id-badge"></i>
+          </div>
+          <h3>Driver Login</h3>
+          <p>Driver ID se login karo. Apni assigned bus aur route dekho.</p>
+          <div class="login-details" id="info-driver">
+            <div class="detail-row"><i class="fas fa-id-card"></i> <b>ID:</b> Your Driver ID</div>
+            <div class="detail-row"><i class="fas fa-lock"></i> <b>Password:</b> Set by Admin</div>
+            <div class="detail-row tip"><i class="fas fa-terminal"></i> Console app mein option <b>2</b> press karo</div>
+          </div>
+          <span class="login-arrow"><i class="fas fa-arrow-right"></i></span>
+        </div>
+
+        <div class="login-card" onclick="showInfo('admin')">
+          <div class="login-icon purple-grad">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3>Admin Login</h3>
+          <p>Full system access. Students, buses, drivers sab manage karo.</p>
+          <div class="login-details" id="info-admin">
+            <div class="detail-row"><i class="fas fa-id-card"></i> <b>ID:</b> admin</div>
+            <div class="detail-row"><i class="fas fa-lock"></i> <b>Password:</b> admin123</div>
+            <div class="detail-row tip"><i class="fas fa-terminal"></i> Console app mein option <b>3</b> press karo</div>
+          </div>
+          <span class="login-arrow"><i class="fas fa-arrow-right"></i></span>
+        </div>
+
+      </div>
+
+      <div class="run-box">
+        <div class="run-icon"><i class="fas fa-terminal"></i></div>
+        <div class="run-info">
+          <h4>Apna C++ Program Kaise Run Karein?</h4>
+          <div class="run-steps">
+            <div class="step"><span class="step-num">1</span> <code>compile.bat</code> pe double-click karo — automatically compile hoga</div>
+            <div class="step"><span class="step-num">2</span> <code>SmartBus.exe</code> run karo</div>
+            <div class="step"><span class="step-num">3</span> 1 / 2 / 3 select karo — Student / Driver / Admin</div>
+            <div class="step"><span class="step-num">4</span> ID aur Password enter karo aur dashboard dekho!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TEAM ========== -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">The Team</span>
+        <h2>Project <span class="gradient-text">Contributors</span></h2>
+        <p>Charon members ne milke ye project banaya hai</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar blue-grad"><i class="fas fa-user-graduate"></i></div>
+          <h4>Member 1</h4>
+          <span class="team-role">Student & Login Module</span>
+          <p>Student dashboard, login, bus search, seat view & cancel</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar orange-grad"><i class="fas fa-bus"></i></div>
+          <h4>Member 2</h4>
+          <span class="team-role">Bus, Route & Driver Module</span>
+          <p>Bus management, routes, schedules, driver assignment</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar green-grad"><i class="fas fa-chair"></i></div>
+          <h4>Member 3</h4>
+          <span class="team-role">Seat Allocation Module</span>
+          <p>Seat booking, waiting list, auto-allocation, occupancy</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar purple-grad"><i class="fas fa-chart-pie"></i></div>
+          <h4>Member 4</h4>
+          <span class="team-role">Admin & Reports Module</span>
+          <p>Admin panel, CRUD management, 6 report types</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <i class="fas fa-bus"></i>
+        <span>Smart<b>Bus</b></span>
+      </div>
+      <p class="footer-desc">Smart College Bus Management System — C++ OOP Project</p>
+      <div class="footer-links">
+        <a href="https://github.com/sapna-bisht0103/SmartBus-" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="#features"><i class="fas fa-star"></i> Features</a>
+        <a href="#modules"><i class="fas fa-layer-group"></i> Modules</a>
+      </div>
+      <div class="footer-tech">
+        <span><i class="fas fa-code"></i> C++</span>
+        <span><i class="fas fa-cubes"></i> OOP</span>
+        <span><i class="fas fa-file-alt"></i> File Handling</span>
+        <span><i class="fas fa-terminal"></i> Console App</span>
+      </div>
+      <p class="footer-copy">© 2024 SmartBus Team — College OOP Project</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

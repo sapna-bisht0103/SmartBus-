@@ -1,0 +1,4 @@
+RT-001|Dehradun - College|Dehradun,Clock Tower,Rajpur Road,ISBT,College Gate|7:00 AM - 9:00 AM
+RT-002|Rishikesh - College|Rishikesh,Haridwar Bypass,Roorkee Chowk,College Gate|6:30 AM - 8:30 AM
+RT-003|Haridwar - College|Haridwar,Jwalapur,Bahadrabad,College Gate|6:00 AM - 8:00 AM
+RT-004|Mussoorie - College|Mussoorie,Kempty Fall,Dehradun,College Gate|7:30 AM - 9:30 AM
