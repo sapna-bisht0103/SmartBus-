@@ -1,0 +1,23 @@
+# Compiled binary
+SmartBus.exe
+*.o
+*.out
+a.out
+
+# Data files (runtime generated - do not commit actual student/bus data)
+data/students.txt
+data/buses.txt
+data/routes.txt
+data/drivers.txt
+data/seats.txt
+data/schedules.txt
+data/waiting.txt
+
+# IDE / editor files
+.vscode/
+*.user
+*.suo
+.vs/
+
+# Windows thumbnails
+Thumbs.db
